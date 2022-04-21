@@ -18,5 +18,6 @@ $ pip3 install plyvel
 
 $ apt-get -y install python3-tk
 
-##実行方法
+## 実行方法
+sh 0_domain_start_up.sh
 
