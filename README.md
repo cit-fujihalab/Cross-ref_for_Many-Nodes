@@ -21,6 +21,4 @@ $ apt-get -y install python3-tk
 ## 実行方法
 sh 0_domain_start_up.sh
 
-sh X-X_domain_start_up.sh
-
-必要なノード数分実行（改変したりなどにして）
+sh X-X_domain_start_up.sh  必要なノード数分実行（改変したりなどにして）
