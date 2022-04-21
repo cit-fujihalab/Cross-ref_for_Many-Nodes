@@ -1,7 +1,7 @@
 # Failure-resistance
 #t-耐故障
 
-#H1必要モジュール
+# 必要モジュール
 $ apt install python3-pip
 
 $ pip3 install numpy
