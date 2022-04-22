@@ -6,16 +6,20 @@ $ apt install python3-pip
 
 $ pip3 install numpy
 
+pycrypto<br>
 $ pip3 install PyCryptodome
 
-$ pip3 install websocket_server==0.4
-
+websocket<br>
+$ pip3 install websocket_server==0.4<br>
 ↑バージョン指定しないと実行不可
 
+websocket<br>
 $ pip3 websocket_client
 
+leveldb<br>
 $ pip3 install plyvel
 
+tkinter<br>
 $ apt-get -y install python3-tk
 
 ## 実行方法
