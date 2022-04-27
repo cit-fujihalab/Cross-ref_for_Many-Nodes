@@ -22,6 +22,9 @@ $ pip3 install plyvel
 tkinter<br>
 $ apt-get -y install python3-tk
 
+以上のモジュールのインストールが必要.
+一括インストールを行う場合は, .sh
+
 ## 実行方法
 sh 0_domain_start_up.sh
 
