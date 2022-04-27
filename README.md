@@ -1,5 +1,5 @@
 # Failure-resistance
-#t-耐故障
+<br>4月27日 実行方法追記
 
 ## 必要モジュール
 $ apt install python3-pip
@@ -22,10 +22,15 @@ $ pip3 install plyvel
 tkinter<br>
 $ apt-get -y install python3-tk
 
-以上のモジュールのインストールが必要.
-一括インストールを行う場合は, .sh
+以上のモジュールのインストールが必要.<br>
+一括インストールを行う場合は, <br>
+equirements.shでインストールすることができる.
 
 ## 実行方法
+実行するうえでIPアドレスとPORT番号の設定が必要である.<br>
+APP/settings.py内<br>
+<br>IPアドレスの変更(1行目):HOST_IP_LAYER_0 = 'xx.xx.xxx.xx'
+<br>ポート番号の変更(18行目):HOST_PORT_LAYER_0_origin
 sh 0_domain_start_up.sh
 
 sh X-X_domain_start_up.sh
